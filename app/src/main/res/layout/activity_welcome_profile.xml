@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0097a7"
+    android:padding="20dp"
+    tools:context="com.example.imrankhan.myloginsignup.welcomeProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/round_corner_shape">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textStyle="bold"
+            android:textSize="45dp"
+            android:textColor="#be106283"
+            android:layout_marginBottom="40dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:src="@drawable/id"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:id="@+id/welcome_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MD. Shariful Islam"
+                android:textStyle="bold"
+                android:layout_marginRight="2dp"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/frame"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/welcome_profile_pic_id"
+                android:layout_width="100dp"
+                android:layout_height="125dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/man" />
+
+        </LinearLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progress_id"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_centerInParent="true"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:max="100"
+            android:layout_marginTop="25dp"
+            android:progressDrawable="@drawable/custom_round_progress_bar" />
+
+        </LinearLayout>
+
+</LinearLayout>

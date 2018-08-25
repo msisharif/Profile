@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e20097a7"
+    android:orientation="vertical"
+    android:gravity="center|bottom"
+    tools:context="com.example.imrankhan.myloginsignup.StartingSplashScreen">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/login"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+
+    <ProgressBar
+        android:id="@+id/progress_id"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="7dp"
+        android:max="100"
+        android:layout_margin="100dp"
+        android:progressDrawable="@drawable/custom_progress_bar" />
+
+
+</LinearLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0097a7"
+    android:padding="10dp"
+    tools:context="com.example.imrankhan.myloginsignup.updateInfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10sp"
+            android:background="@drawable/round_corner_shape">
+
+            <ImageView
+                android:layout_weight=".9"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/edit_profile"/>
+
+            <TextView
+                android:layout_weight="3.1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="UPDATE INFORMATION"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textColor="#d4782663"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/round_corner_shape">
+
+            <EditText
+                android:id="@+id/full_name_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/full_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:hint="Full Name."/>
+
+            <EditText
+                android:id="@+id/email_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/email"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:hint="Email."/>
+
+            <EditText
+                android:id="@+id/dob_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/dob"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:hint="D.O.B (DD / MM / YY)."/>
+
+            <EditText
+                android:id="@+id/gender_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/gender"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:hint="Gender."/>
+
+            <EditText
+                android:id="@+id/contact_no_id"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:drawableLeft="@drawable/contact_no"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:hint="Contact No :  (EX :  1.+880167*******)."/>
+
+            <EditText
+                android:id="@+id/address_id"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:drawableLeft="@drawable/address"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="12.3sp"
+                android:textStyle="bold"
+                android:hint="Address :  (EX : 303/12, XYZ, Dhaka, Bangladesh.)."/>
+
+            <EditText
+                android:id="@+id/national_id"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:drawableLeft="@drawable/national_id"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="12.3sp"
+                android:textStyle="bold"
+                android:hint="Natoinal ID :  (EX : NID19947919015000112)."/>
+
+            <EditText
+                android:id="@+id/card_details_id"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:drawableLeft="@drawable/credit_card"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="12.3sp"
+                android:textStyle="bold"
+                android:hint="Credit Card :  (EX : 1.Visa, 4111 1111 1111 1111)."/>
+
+            <EditText
+                android:id="@+id/bank_account_id"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:drawableLeft="@drawable/bank_account"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="12.3sp"
+                android:textStyle="bold"
+                android:hint="Bank Account :  (EX : IBAN - QA47SCBL000000000009276829140)."/>
+
+            <EditText
+                android:id="@+id/driving_licence_id"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:drawableLeft="@drawable/driving_licence"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="12.3sp"
+                android:textStyle="bold"
+                android:hint="Driving Licence :  (EX : DK007**********)."/>
+
+            <EditText
+                android:id="@+id/favourite_quotes_id"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:drawableLeft="@drawable/favourite_quotes"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#262121"
+                android:textSize="12.3sp"
+                android:textStyle="bold"
+                android:hint="Personal Notes :  (EX : Hello World.)."/>
+
+            <Button
+                android:id="@+id/update_id"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="#e016cbd1"
+                android:textSize="12sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_shape"
+                android:shadowColor="#A8A8A8"
+                android:textStyle="bold"
+                android:shadowRadius="3"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

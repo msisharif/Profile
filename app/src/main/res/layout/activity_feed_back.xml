@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0097a7"
+    android:padding="10dp"
+    tools:context="com.example.imrankhan.myloginsignup.feedBackActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_corner_shape">
+
+            <ImageView
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/feedback_title"/>
+
+            <TextView
+                android:layout_weight="2.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="FEEDBACK"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#d4782663"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/round_corner_shape">
+
+            <EditText
+                android:id="@+id/name_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="Enter Your Name."
+                android:layout_marginTop="40dp"
+                android:textStyle="bold"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/message_id"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:hint="Enter Your Message."
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="35dp"/>
+
+            <Button
+                android:id="@+id/send_id"
+                android:text="Send"
+                android:textAllCaps="false"
+                android:textColor="#e016cbd1"
+                android:textSize="12sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_shape"
+                android:shadowColor="#A8A8A8"
+                android:textStyle="bold"
+                android:shadowRadius="3"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">  PROFILE</string>
+
+    <string name="about_app">About App:\n\nSecuring your Profile from unauthorized access!</string>
+
+    <string name="about_dev">About Developer:\n\nMD. Shariful Islam \nEmail : msicseewu@gmail.com</string>
+
+    <string name="forgot_password"><u>Forgot Password ?</u></string>
+</resources>
+
+

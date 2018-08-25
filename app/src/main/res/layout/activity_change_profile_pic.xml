@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0097a7"
+    android:padding="10dp"
+    tools:context="com.example.imrankhan.myloginsignup.changeProfilePicActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_corner_shape">
+
+            <ImageView
+                android:layout_weight=".7"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/change_profile_pic"/>
+
+            <TextView
+                android:layout_weight="3.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="CHANGE PROFILE PICTURE"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#d4782663"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@drawable/round_corner_shape">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/frame"
+                android:layout_marginRight="2dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/change_pic_id"
+                    android:layout_width="155dp"
+                    android:layout_height="195dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:src="@drawable/man"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/choose_button_id"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="CHOOSE"
+                    android:textStyle="bold"
+                    android:textSize="9dp"
+                    android:drawableLeft="@drawable/add_photo"
+                    android:layout_marginBottom="7dp" />
+
+                <Button
+                    android:id="@+id/upload_button_id"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="UPLOAD"
+                    android:textStyle="bold"
+                    android:textSize="9dp"
+                    android:layout_marginBottom="7dp"
+                    android:drawableLeft="@drawable/upload"/>
+
+                <Button
+                    android:id="@+id/delete_button_id"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="DELETE"
+                    android:textStyle="bold"
+                    android:textSize="9dp"
+                    android:drawableLeft="@drawable/delete"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

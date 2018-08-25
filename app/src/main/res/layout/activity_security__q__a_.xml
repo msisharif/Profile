@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0097a7"
+    android:padding="10dp"
+    tools:context="com.example.imrankhan.myloginsignup.security_Q_A_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_corner_shape">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/security_title"/>
+
+            <TextView
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="SECURITY QUESTION"
+                android:layout_marginRight="2dp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#d4782663"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="vertical"
+            android:background="@drawable/round_corner_shape">
+
+            <TextView
+                android:id="@+id/q_text_1_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="# What is your Date Of Birth ?"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/a_editText_1_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="#262121"
+                android:textStyle="bold"
+                android:hint="D.O.B (DD / MM / YY)"
+                android:textSize="15dp"/>
+
+            <TextView
+                android:id="@+id/q_text_2_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="# Security Question:"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/a_editText_2_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="30dp"
+                android:textStyle="bold"
+                android:textColor="#262121"
+                android:hint="Hit your Brain"
+                android:textSize="15dp"/>
+
+            <Button
+                android:id="@+id/submit_id"
+                android:layout_gravity="center"
+                android:text="SUBMIT\nANSWER"
+                android:textAllCaps="false"
+                android:textColor="#e016cbd1"
+                android:textSize="11sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_shape"
+                android:shadowColor="#A8A8A8"
+                android:textStyle="bold"
+                android:shadowRadius="3" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

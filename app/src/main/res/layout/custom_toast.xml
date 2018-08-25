@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:id="@+id/custom_toast_id"
+    android:padding="40dp"
+    android:background="@drawable/round_corner_shape"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You For Staying With Us."
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:layout_marginBottom="45dp"/>
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:src="@drawable/login"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hope You Will Join Us Again!"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#dc166b54"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>
